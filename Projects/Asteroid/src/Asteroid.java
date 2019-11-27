@@ -64,7 +64,6 @@ public class Asteroid {
 
 	private static void setup() {
 		// File Handling Variable Initialization
-		Json = new Gson();
 		String OS = System.getProperty("os.name");
 		boolean mac = false;
 		if (OS.indexOf("Mac") > -1) {
